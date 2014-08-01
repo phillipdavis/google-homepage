@@ -1,0 +1,144 @@
+html, body {
+	height: 100%;
+	position: relative;
+}
+body, div, ul {
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+ul {
+	list-style-type: none;
+}
+
+.container {
+	height: 100%;
+}
+
+/* navbar */
+.nav {
+	margin: 0 30px;
+	padding: 15px 0;
+}
+.nav ul {
+	float: right;
+}
+.nav li {
+	display: inline;
+	margin-left: 10px;
+}
+.nav a {
+	color: #404040;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.nav a.apps {
+	background-image: url(v1_2e543709.png);
+	background-repeat: no-repeat;
+	background-position: -51px -452px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+.nav a.signin_button {
+	display: inline-block;
+	background: #4585F3;
+	color: white;
+	font-weight: bold;
+	padding: 7px 13px;
+	border-radius: 2px;
+}
+.nav a.signin_button:hover {
+	text-decoration: none;
+	-webkit-box-shadow: 0 1px 1px #ccc;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+/* search body */
+.search {
+	margin-top: 130px;
+}
+.logo {
+	width: 269px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.search_bar {
+	width: 570px;
+	margin: 0 auto;
+}
+input {
+	width: 565px;
+	padding: 5px;
+	border: 1px solid #E4E4E4;
+}
+.search_buttons {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 239px;
+}
+button {
+	background: #F2F2F2;
+	border: 1px solid #C6C6C6;
+	color: #343434;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 6px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+button:first-child {
+	margin-right: 10px;
+}
+/* footer */
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #F2F2F2;
+	padding: 12px 0;
+	border-top: 1px solid #E4E4E4;
+	
+}
+.footer ul:first-child {
+	float: left;
+	margin-left: 30px;
+}
+.footer ul:last-child {
+	float: right;
+	margin-right: 30px;
+}
+.footer ul:first-child li{
+	margin-right: 22px;
+	padding-right: 5px;
+}
+.footer ul:last-child li{
+	margin-left: 22px;
+	padding-left: 5px;
+}
+.footer li {
+	display: inline;
+}
+.footer a {
+	color: #666666;
+	text-decoration: none;
+}
+.footer  a:hover {
+	text-decoration: underline;
+}
